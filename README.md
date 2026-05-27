@@ -4,10 +4,10 @@
 This project presents a comparative evaluation of different clustering and dimensionality reduction techniques for Single-Cell RNA Sequencing (scRNA-seq) data analysis. The study focuses on understanding how modern deep learning–based representation learning methods perform against traditional clustering pipelines in handling high-dimensional, sparse, and noisy biological datasets.
 
 The project evaluates four major approaches:
-  IGCLAPS – Graph-Based Contrastive Learning
-  scCRT – Transformer-Based Representation Learning
-  scGCL – Graph Contrastive Learning
-  UIPBC – Classical PCA-Based Clustering Pipeline
+- IGCLAPS – Graph-Based Contrastive Learning
+- scCRT – Transformer-Based Representation Learning
+- scGCL – Graph Contrastive Learning
+- UIPBC – Classical PCA-Based Clustering Pipeline
 
 The models were tested on multiple publicly available scRNA-seq datasets from the GEO repository using clustering evaluation metrics such as ARI, NMI, and Purity.
 
